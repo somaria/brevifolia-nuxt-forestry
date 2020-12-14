@@ -9,6 +9,12 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- name: icrunchy
+  type: text
+  config:
+    required: false
+  label: iCrunchy
+  description: The end of innocent
 - type: textarea
   name: cta
   config:
@@ -46,4 +52,5 @@ fields:
   description: Choose text color for the info page
   default: "#EBEBEB"
 pages:
+- content/data/info.json
 - content/data/info.json
